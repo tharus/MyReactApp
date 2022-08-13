@@ -1,0 +1,114 @@
+:root {
+    --primary--500: #E06A00;
+    --primary--400: #FA7701;
+    --primary--300: #FDC999;
+    --primary--200: #FEE4CC;
+    --natural--400: #C4C4C4;
+    --natural--400: #E4E4E4;
+    --white: #FFFFFF;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.btn--solid--primary--light {
+    background-color: var(--primary--400);
+    color: var(--white);
+    border: none;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.btn--solid--primary--dark {
+    background-color: var(--primary--500);
+    color: var(--white);
+    border: none;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+}
+
+.btn--solid--primary--disabled {
+    background-color: var(--natural--400);
+    color: #C4C4C4;
+    border: none;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+}
+
+.btn--primary--light--outlined {
+    background-color: var(--white);
+    color: var(--primary--400);
+    border: none;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid var(--natural--400);
+}
+
+.btn--primary--dark--outlined {
+    background-color: var(--primary--200);
+    color: var(--primary--400);
+    border: none;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid var(--natural--400);
+}
+
+.btn--primary--disabled--outlined {
+    background-color: var(--white);
+    color: #C4C4C4;
+    border: none;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid var(--natural--400);
+}
+
+.btn--primary--light {
+    background-color: var(--white);
+    color: var(--primary--400);
+    border: none;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+}
+
+.btn--primary--dark {
+    background-color: var(--primary--200);
+    color: var(--primary--400);
+    border: none;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+}
+
+.btn--primary--disabled {
+    background-color: var(--white);
+    color: var(--natural--400);
+    border: none;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+}
+
+.btn-medium {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 1.25px;
+}

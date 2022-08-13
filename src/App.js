@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import {Button} from './components/atoms/button/Button.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <h1>Buttons</h1>
+      <Button onClick={()=>{console.log("clicked - btn--primary--light")}} buttonStyle='.btn--solid--primary--dark'>Button1</Button>
+  
+      <Button onClick={()=>{console.log("clicked - btn--primary--light")}} buttonStyle='btn--primary--dark--outlined'>Button</Button>
+       </div>
+       </div>
   );
 }
 
