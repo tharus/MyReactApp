@@ -15,12 +15,13 @@ const STYLES = [
 
 const SIZES = ['btn-medium', 'btn-large'];
 
-export const Button = ({
+const Button = ({
         children,
         type,
         onClick,
         buttonStyle,
-        buttonSize
+        buttonSize,
+        title
 
     }) => {
 
@@ -29,7 +30,9 @@ export const Button = ({
 
             return ( 
             <button className={`btn ${btnClass} ${btnSize}`} onClick={onClick} type={type}> 
-              {children}
+              {title}
             </button>
             );
      };
+
+     export default Button;

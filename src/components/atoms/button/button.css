@@ -10,12 +10,10 @@
 
 .btn {
     font-family: 'Open Sans', sans-serif;
-    position: absolute;
     font-style: normal;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    position: absolute;
 }
 
 .btn--solid--primary--light {
